@@ -30,9 +30,9 @@ python download_backbones.py
 ```
 
 ## Dataset
-The image files can be found in [link](https://226346.oss-cn-hangzhou-zmf.aliyuncs.com/yifei/COCO_images.zip?OSSAccessKeyId=LTAI7yHTBjWMaB6x&Expires=1655180698&Signature=XjOEy1gdie6JhVCgelBpzE%2BYXVw%3D)
+The image files can be found in [link]()
 
-The textual files can be found in [link](https://226346.oss-cn-hangzhou-zmf.aliyuncs.com/yifei/MQR_data.zip?OSSAccessKeyId=LTAI7yHTBjWMaB6x&Expires=1655213232&Signature=5J%2BpkUabxYy%2BhDVaROxw0F8GRs0%3D)
+The textual files can be found in [link]()
 
 
 
