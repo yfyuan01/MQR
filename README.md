@@ -12,7 +12,7 @@ pip install -r requirements.txt
 # Download T5/BART backbone checkpoint
 python download_backbones.py
 
-# Run feature extraction
+# Run feature extraction to extract image features
 ./feature_extraction
 
 # Train VL-T5
@@ -46,27 +46,16 @@ We recommend using [gdrive](https://github.com/prasmussen/gdrive) to download th
 gdrive download 1_SBj4sZ0gUqfBon1gFBiNRAmfHv5w_ph --recursive
 ```
 
-### COCO+VG pretraining (default)
-* `VL-T5/snap/pretrain/VLT5/Epoch30.pth`: VL-T5 pretrained for 30 epochs on COCO+VG
-* `VL-T5/snap/pretrain/VLBart/Epoch30.pth`: VL-BART pretrained for 30 epochs on COCO+VG
-
-### VCR pretraining (2nd stage)
-* `VL-T5/snap/vcr_pretrain/VLT5/Epoch20.pth`: VL-T5 further pretrained for 20 epochs on VCR
-* `VL-T5/snap/vcr_pretrain/VLBart/Epoch20.pth`: VL-BART further pretrained for 20 epochs on VCR
-
-
-
-## Pretraining on COCO+VG
-```bash
-# Pretraining with 4 gpus
-cd VL-T5/
-bash scripts/COCOVG_pretrain_VLT5.sh 4
-bash scripts/COCOVG_pretrain_VLBart.sh 4
-```
 
 ## Downstream tasks
 
 ### [Query Rewrite]
+First replace the generation_utils.py to the Huggingface transformers package installed in your device.
+```bash
+mv generation_utils.py [your path]/transformers/
+```
+
+Then start fine-tuning
 ```bash
 # Finetuning with 4 gpus
 cd VL-T5/
