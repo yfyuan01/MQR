@@ -9,6 +9,9 @@ source activate MQR
 # Install python dependencies
 pip install -r requirements.txt
 
+# Download language evalutation tools
+https://github.com/bckim92/language-evaluation
+
 # Download T5/BART backbone checkpoint
 python download_backbones.py
 
