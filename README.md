@@ -3,8 +3,8 @@
 ## Setup
 ```bash
 # Create python environment (optional)
-conda create -n vlt5 python=3.7
-source activate vlt5
+conda create -n MQR python=3.7
+source activate MQR
 
 # Install python dependencies
 pip install -r requirements.txt
