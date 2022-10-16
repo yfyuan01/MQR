@@ -32,7 +32,7 @@ python download_backbones.py
 ## Dataset
 The image files can be found in [link]()
 
-The textual files can be found in [link]()
+The textual files can be found in [link](https://drive.google.com/file/d/1MgPQEUNVZbcSV-eil20iIDk4MJB0TsFl/view?usp=sharing)
 
 
 
