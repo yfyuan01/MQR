@@ -37,7 +37,7 @@ The image files (anno_images) can be found in [link](https://drive.google.com/fi
 
 The textual files (McQR_data) can be found in [link](https://drive.google.com/file/d/1V9lBmDJXPKAhiaGZKFUUhVkuNUcgkgq7/view?usp=sharing).
 
-Image feature extraction code can be found in ./feature_extraction
+Image feature extraction code can be found in ./feature_extraction.
 All the extracted image features can also be downloaded via [link](https://drive.google.com/file/d/1SDkEQliwTPvSNz0HdE1dSepYYM5f27HA/view?usp=sharing)
 
 The original dataset file with image annotations can be found in [link]().
