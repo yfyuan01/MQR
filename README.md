@@ -68,3 +68,9 @@ cd VL-T5/
 bash scripts/QueryRewrite_VLT5.sh 4
 bash scripts/QueryRewrite_VLBart.sh 4
 ```
+
+## Reference
+Please cite our paper if you use the dataset and model in your works:
+```
+
+```
