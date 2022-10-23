@@ -17,8 +17,6 @@ https://github.com/bckim92/language-evaluation
 # Download T5/BART backbone checkpoint
 python download_backbones.py
 
-# Image feature extraction
-Code can be found in ./feature_extraction
 
 # Train VL-T5
 ./VL-T5/
@@ -39,7 +37,8 @@ The image files (anno_images) can be found in [link](https://drive.google.com/fi
 
 The textual files (McQR_data) can be found in [link](https://drive.google.com/file/d/1V9lBmDJXPKAhiaGZKFUUhVkuNUcgkgq7/view?usp=sharing).
 
-All the image features can also be downloaded via [link](https://drive.google.com/file/d/1V9lBmDJXPKAhiaGZKFUUhVkuNUcgkgq7/view?usp=sharing)
+Image feature extraction code can be found in ./feature_extraction
+All the extracted image features can also be downloaded via [link](https://drive.google.com/file/d/1V9lBmDJXPKAhiaGZKFUUhVkuNUcgkgq7/view?usp=sharing)
 
 The original dataset file with image annotations can be found in [link]().
 
