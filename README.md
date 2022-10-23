@@ -19,7 +19,6 @@ python download_backbones.py
 
 # Image feature extraction
 Code can be found in ./feature_extraction
-All the image features can also be downloaded via [link](https://drive.google.com/file/d/1V9lBmDJXPKAhiaGZKFUUhVkuNUcgkgq7/view?usp=sharing)
 
 # Train VL-T5
 ./VL-T5/
@@ -39,6 +38,8 @@ All the image features can also be downloaded via [link](https://drive.google.co
 The image files (anno_images) can be found in [link](https://drive.google.com/file/d/14TJZORiFtvp7m3xbTpktA-u5fpx78UkT/view?usp=sharing). 
 
 The textual files (McQR_data) can be found in [link](https://drive.google.com/file/d/1V9lBmDJXPKAhiaGZKFUUhVkuNUcgkgq7/view?usp=sharing).
+
+All the image features can also be downloaded via [link](https://drive.google.com/file/d/1V9lBmDJXPKAhiaGZKFUUhVkuNUcgkgq7/view?usp=sharing)
 
 The original dataset file with image annotations can be found in [link]().
 
