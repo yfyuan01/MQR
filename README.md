@@ -1,5 +1,7 @@
 # McQueen: A Transformer-based multimodal query rewrite benchmark
 
+Our code is based on the original VLT5/Bart code.
+
 ## Setup
 ```bash
 # Create python environment (optional)
@@ -15,8 +17,9 @@ https://github.com/bckim92/language-evaluation
 # Download T5/BART backbone checkpoint
 python download_backbones.py
 
-# Run feature extraction to extract image features
-./feature_extraction
+# Image feature extraction
+Code can be found in ./feature_extraction
+All the image features can also be downloaded via [link](https://drive.google.com/file/d/1V9lBmDJXPKAhiaGZKFUUhVkuNUcgkgq7/view?usp=sharing)
 
 # Train VL-T5
 ./VL-T5/
@@ -33,11 +36,11 @@ python download_backbones.py
 ```
 
 ## Dataset
-The image files can be found in [link]()
+The image files (anno_images) can be found in [link](https://drive.google.com/file/d/14TJZORiFtvp7m3xbTpktA-u5fpx78UkT/view?usp=sharing). 
 
-The textual files can be found in [link](https://drive.google.com/file/d/1MgPQEUNVZbcSV-eil20iIDk4MJB0TsFl/view?usp=sharing)
+The textual files (McQR_data) can be found in [link](https://drive.google.com/file/d/1V9lBmDJXPKAhiaGZKFUUhVkuNUcgkgq7/view?usp=sharing).
 
-
+The original dataset file with image annotations can be found in [link]().
 
 ## Download Pre-trained models / Pre-extracted features
 We host model checkpoints and features via google drive.
