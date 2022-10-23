@@ -435,13 +435,13 @@ class VLBart(BartForConditionalGeneration):
         output_attentions=None,
         output_hidden_states=None,
         return_dict=None,
-        pointer_gen = False,
+        pointer_gen = True,
         reduce_loss=False,
         **kwargs,
     ):
         
         return_dict = return_dict if return_dict is not None else self.config.use_return_dict
-
+        pointe_gen = pointer_gen if pointer_gen is not None else self.config.pointer_gen
         if labels is not None:
             if decoder_input_ids is None:
                 decoder_input_ids = shift_tokens_right(

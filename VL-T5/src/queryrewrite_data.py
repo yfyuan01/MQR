@@ -20,9 +20,9 @@ from param import parse_args
 
 project_dir = Path(__file__).resolve().parent.parent  # VLT5
 workspace_dir = project_dir.parent
-dataset_dir = Path('/home/admin/multimodal_qr/pointer_summarizer-master/OurData/last/last1')
-qr_img_dir = Path('/home/admin/multimodal_annotation/COCO_images')
-qr_dir = Path('/home/admin/multimodal_qr/pointer_summarizer-master/OurData')
+dataset_dir = Path('../McQR_data/')
+qr_img_dir = Path('../anno_images')
+qr_dir = Path('../')
 vg_dir = qr_dir
 # qr_img_dir = qr_dir.joinpath('images/')
 qr_feature_dir = qr_dir.joinpath('features')

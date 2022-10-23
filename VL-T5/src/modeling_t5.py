@@ -432,9 +432,10 @@ class VLT5(T5ForConditionalGeneration):
 
         **kwargs,
     ):
-
+	
         use_cache = use_cache if use_cache is not None else self.config.use_cache
         return_dict = return_dict if return_dict is not None else self.config.use_return_dict
+        pointer_gen = pointer_gen if pointer_gen is not None else self.config.pointer_gen
         self.config.output_hidden_states=True
         self.config.output_attentions = True
         if encoder_outputs is None:

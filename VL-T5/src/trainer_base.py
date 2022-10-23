@@ -67,7 +67,7 @@ class TrainerBase(object):
         config = config_class.from_pretrained(self.args.backbone)
 
         args = self.args
-
+        config.pointer_gen = args.pointer
         config.feat_dim = args.feat_dim
         config.pos_dim = args.pos_dim
         config.n_images = 2

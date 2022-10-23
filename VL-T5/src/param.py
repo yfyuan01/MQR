@@ -135,6 +135,8 @@ def parse_args(parse=True, **optional_kwargs):
 
     parser.add_argument('--prefix', type=str, default=None)
 
+    # Pointer or not
+    parser.add_argument('--pointer', action='store_true')
     # Pretraining
     parser.add_argument('--ground_upsample', type=int, default=1)
     parser.add_argument('--ground_weight', type=int, default=1)
