@@ -40,7 +40,7 @@ The textual files (McQR_data) can be found in [link](https://drive.google.com/fi
 Image feature extraction code can be found in ./feature_extraction.
 All the extracted image features can also be downloaded via [link](https://drive.google.com/file/d/1SDkEQliwTPvSNz0HdE1dSepYYM5f27HA/view?usp=sharing)
 
-The original dataset file with image annotations can be found in [link]().
+The original dataset file with image annotations can be found in [link](https://drive.google.com/file/d/1EZlcxDl5BE6s6jay9uJxqCwpySaXU04s/view?usp=sharing).
 
 ## Download Pre-trained models / Pre-extracted features
 We host model checkpoints and features via google drive.
